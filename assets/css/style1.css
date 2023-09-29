@@ -1,0 +1,68 @@
+@import url(./root.css);
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+.bcg_body{
+    background-color: #000000;
+}
+.txt_clr{
+    background: -webkit-linear-gradient(#fed710, #ff5001);
+    background: linear-gradient(
+        to right, #fed710, #ff5001,);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+.bttn_buy{
+    padding: 14px 20px;
+    border-radius: 100px;
+    border: none;
+    background: linear-gradient(180deg, #FED710 0%, #FF5001 100%), #FFAE01;
+}
+.ellipse_1{
+    left: 0;
+    top: 0;
+    width: 334px;
+    height: 334px;
+    transform: rotate(-69.584deg);
+    flex-shrink: 0;
+    border-radius: 334px;
+    background: #781D00;
+    filter: blur(250px);
+}
+.ellipse_2{
+    right: 0;
+    bottom: 0;
+    width: 334px;
+    height: 334px;
+    transform: rotate(-69.584deg);
+    flex-shrink: 0;
+    border-radius: 334px;
+    background: #781D00;
+    filter: blur(250px);
+}
+.bg-circle{
+    width: 201px;
+    height: 201px;
+    transform: rotate(-69.584deg);
+    border: 1px solid #FFAE01;
+    border-radius: 100%;
+}
+.bg-doted1{
+    width: 150px;
+    height: 150px;
+    transform: rotate(-69.584deg);
+    border: 1px dashed #FFAE01;
+    border-radius: 100%;
+}
+.bg-doted2{
+    width: 100px;
+    height: 100px;
+    transform: rotate(-69.584deg);
+    border: 1px dashed #FFAE01;
+    border-radius: 100%;
+}
