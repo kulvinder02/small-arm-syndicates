@@ -229,6 +229,8 @@ ul {
 }
 
 .tab-box {
+    position: relative;
+    z-index:11 !important;
     padding: 25px;
     border-radius: 17.34px;
     position: relative;
@@ -355,10 +357,55 @@ ul {
     transform: rotate(-69.584deg);
 }
 
-.ellipse_1,.ellips-blur {
+.ellipse_1,.elips-postion1 {
     position: absolute;
     top: 10%;
     left: -6%;
+}
+.ellipse_2,.elips-postion2 {
+    position: absolute;
+    bottom: -28%;
+    right: -6%;
+    z-index: 10;
+}
+.ellipse_3,.elips-postion3 {
+    position: absolute;
+    top: 40%;
+    left: -4%;
+}
+.ellipse_4,.elips-postion4 {
+    position: absolute;
+    bottom: -10%;
+    right: -4%;
+    z-index: 10;
+}
+.ellipse_5,.elips-postion5 {
+    position: absolute;
+    bottom: -10%;
+    right: -4%;
+    z-index: 10;
+}
+.ellipse_6,.elips-postion6 {
+    position: absolute;
+    top:35%;
+    left: -4%;
+}
+.ellipse_7,.elips-postion7 {
+    position: absolute;
+    bottom: 8%;
+    right: -4%;
+    z-index: 10;
+}
+.ellipse_8,.elips-postion8 {
+    position: absolute;
+    top: 8%;
+    left: -4%;
+    z-index: 10;
+}
+.ellipse_9,.elips-postion9 {
+    position: absolute;
+    top: 48%;
+    right: -4%;
 }
 
 .circle1 {
@@ -367,7 +414,7 @@ ul {
     height: 201px;
     transform: rotate(-69.584deg);
     border-radius: 201px;
-    border: 1px solid #FFAE01;
+    border: 1px solid #6A3E00;
     opacity: .8;
 }
 
@@ -377,7 +424,7 @@ ul {
     transform: rotate(-69.584deg);
     flex-shrink: 0;
     border-radius: 96.415px;
-    border: 1px dashed #FFAE01;
+    border: 1px dashed #6A3E00;
     opacity: .8;
 }
 
@@ -387,7 +434,7 @@ ul {
     transform: rotate(-69.584deg);
     flex-shrink: 0;
     border-radius: 127.463px;
-    border: 1px dashed #FFAE01;
+    border: 1px dashed #6A3E00;
     opacity: .8;
 }
 
