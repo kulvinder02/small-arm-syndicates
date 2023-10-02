@@ -7,15 +7,15 @@
 
     --fs-14: 14px;
     --fs-16: 16px;
-    --fs-18: 18px;
+    --fs-18: 13px;
     --fs-20: 20px;
     --fs-22: 22px;
     --fs-25: 25px;
-    --fs-28: 28px;
+    --fs-28: 20px;
     --fs-30: 30px;
-    --fs-35: 35px;
-    --fs-39: 39px;
-    --fs-49: 49px;
+    --fs-35: 23px;
+    --fs-39: 30px;
+    --fs-49: 25px;
     --fs-70: 70px;
 
     --fw-300: 300;
@@ -37,12 +37,8 @@
 .ff-agnstic{
     font-family: "Agnostic";
 }
-
 .color-black {
     color: var(--color-black);
-}
-.color-white {
-    color: var(--color-white);
 }
 
 .fs-16 {
@@ -54,11 +50,9 @@
 .fs-18 {
     font-size: var(--fs-18);
 }
-
 .fs-20 {
     font-size: var(--fs-20);
 }
-
 .fs-22 {
     font-size: var(--fs-22);
 }
@@ -74,7 +68,6 @@
 .fs-35 {
     font-size: var(--fs-35);
 }
-
 .fs-70 {
     font-size: var(--fs-70);
 }
@@ -84,54 +77,16 @@
 .fs-49 {
     font-size: var(--fs-49);
 }
-
 .fw-300 {
     font-weight: var(--fw-300);
 }
-
 .fw-400 {
     font-weight: var(--fw-400);
 }
-
 .fw-500 {
     font-weight: var(--fw-500);
 }
-.fw-600 {
-    font-weight: var(--fw-600);
-}
+
 .fw-700 {
     font-weight: var(--fw-700);
-}
-
-@media (min-width:320px ) {
-    :root {
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20: 16px;
-        --fs-22: 16px;
-        --fs-25: 16px;
-        --fs-28: 28px;
-        --fs-30: 30px;
-        --fs-35: 35px;
-        --fs-39: 39px;
-        --fs-49: 32px;
-        --fs-70: 40px;
-    }   
-}
-@media (min-width:992px ) {
-    :root {
-        --fs-14: 14px;
-        --fs-16: 16px;
-        --fs-18: 18px;
-        --fs-20: 20px;
-        --fs-22: 22px;
-        --fs-25: 25px;
-        --fs-28: 28px;
-        --fs-30: 30px;
-        --fs-35: 35px;
-        --fs-39: 39px;
-        --fs-49: 49px;
-        --fs-70: 70px;
-    }   
 }
