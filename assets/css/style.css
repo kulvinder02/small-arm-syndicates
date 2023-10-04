@@ -445,7 +445,6 @@ ul {
     height: 30px;
     background:white;
 } */
-
 @media (max-width:1200px) {
     .nav-bar-sm {
         position: fixed;
