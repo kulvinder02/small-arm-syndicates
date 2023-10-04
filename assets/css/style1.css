@@ -106,12 +106,12 @@
     width: 100%;
 }
 
-.icon {
-    transition: 200ms linear;
+.icon svg {
+    transition: 200ms ease-in !important;
 }
 
 .icon:hover svg {
-    transition: 300ms linear;
+    transition: 300ms ease-in !important;
     transform: scale(1.1);
     transform: translateY(-10px);
 }
