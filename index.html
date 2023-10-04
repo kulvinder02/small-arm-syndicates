@@ -59,13 +59,13 @@
             <img src="./assets/images/nav-logo.png" alt="logo" class="logo">
            </div>
            <div class="d-flex align-items-center nav-bar-sm" id="smal_nav">
-            <ul class="navbar-lptp  gap-5 ">
-              <li><a href="" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">BUY A SAS</a></li>
-              <li><a href="#RoadMap" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">RoadMap</a></li>
-              <li><a href="#team" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">team</a></li>
-              <li><a href="#rarity" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">Rarity</a></li>
-              <li><a href="#Stash" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">Stash</a></li>
-              <li><a href="#Game" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">Syndicate Game</a></li> 
+            <ul class="navbar-lptp  gap-nav gap-5 ">
+              <li><a onclick="opennav()" href="" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">BUY A SAS</a></li>
+              <li><a onclick="opennav()" href="#RoadMap" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">RoadMap</a></li>
+              <li><a onclick="opennav()" href="#team" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">team</a></li>
+              <li><a onclick="opennav()" href="#rarity" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">Rarity</a></li>
+              <li><a onclick="opennav()" href="#Stash" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">Stash</a></li>
+              <li><a onclick="opennav()" href="#Game" class="ff-agnstic fs-18 fw-400 color-white text-capitalize nav-links">Syndicate Game</a></li> 
              </ul>
              <button class="ff-agnstic fs-20 fw-400 color-white nav-bttn text-capitalize">connect wallet</button>
            </div>
@@ -80,8 +80,8 @@
   
       <div class="container position-relative d-flex flex-column flex-grow-1 ">
      
-        <div class="d-flex flex-column align-items-center mt-md-3 mt-xl-5 pt-5">
-          <h1 class="ff-agnstic fs-70 fw-400 color-white text-center mt-xl-5">Small Arms Syndicate</h1>
+        <div class="d-flex flex-column align-items-center mt-md-3 mt-heading1">
+          <h1 class="ff-agnstic fs-70 fw-400 color-white text-center mt-xl-5 pt-5 pt-xl-0">Small Arms Syndicate</h1>
           <p class="ff-robata fw-500 fs-22 color-white hro-para text-center">Small Arms Syndicate is a collection of 10,000 unique T-rex Small Arms NFTs— unique digital collectibles minted on the Wanchain blockchain. Your Small Arms NFT is your ticket to members-only perks and is your utility token in the S.A.S ecosystem.</p>
         </div>
       
@@ -212,7 +212,7 @@
   </section>
   
     <!-- section 4 -->
-      <section class="canal-bg min-vh position-relative pb-4 " id="team">
+      <section class="canal-bg min-vh position-relative pb-4 " id="team"> 
         <div class="ellips-blur elips-postion5 d-none d-lg-block"></div>
         <div class="ellipse_5 d-none d-lg-block">
             <div class="circle1  d-flex justify-content-center align-items-center text-center">
@@ -225,9 +225,9 @@
         </div>
         <div class="container">
          <div class="pt-lg-5">
-          <h1 class="ff-agnstic fs-49 fw-400 color-white text-center pt-lg-5 mt-xl-5">Team</h1>
+          <h1 class="ff-agnstic fs-49 fw-400 color-white text-center pt-lg-5 mt-xl-5 pb-4">Team</h1>
          </div>
-         <div class="row mt-xl-5 pt-lg-5 align-items-center pb-3">
+         <div class="row mt-xl-5 pt-xl-5 align-items-center pb-3">
           <div class="col-12 col-sm-6 col-lg-4">
             <div data-aos="zoom-out-up">
               <div class="card-box1">
@@ -293,9 +293,9 @@
           <div class="pt-lg-5 ">
             <h1 class="ff-agnstic fw-400 fs-49 color-white text-center pb-lg-4 pt-lg-5">Rarity</h1>
           </div>
-          <div class="mt-4 d-flex flex-column justify-content-center align-items-center">
-          <div class="text-center pb-lg-5">
-            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <div class="mt-4 ">
+          <div class="pb-lg-5  ">
+            <ul class="nav nav-pills mb-3 scroll_btn d-flex align-items-center justify-content-start overflow-x-scroll flex-nowrap" id="pills-tab" role="tablist">
               <li class="nav-item" role="presentation">
                 <button class="nav-link active ff-agnstic fs-20 fw-400 color-white tab-bttn-bg" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-Background" type="button" role="tab" aria-controls="pills-Background" aria-selected="true">Background</button>
               </li>
@@ -614,7 +614,7 @@
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
     AOS.init({
-      duration:"700"
+      duration:"700",
       once:"true"
     });
    

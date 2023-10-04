@@ -66,6 +66,9 @@ ul {
     backdrop-filter: blur(31.574848175048828px);
 
 }
+.navtab-bttn:hover{
+    opacity: .6;
+}
 
 .nav-bttn:hover {
     opacity: .6;
@@ -216,7 +219,7 @@ ul {
     border: none !important;
     transition: all linear 200ms;
     background: linear-gradient(181deg, rgba(0, 0, 0, 0.00) 54.59%, rgba(0, 0, 0, 0.78) 90.17%), url(<path-to-image>), lightgray 50% / cover no-repeat, linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
-    box-shadow: 1px 6px 7px 0px #933802;
+    /* box-shadow: 1px 6px 7px 0px #933802; */
     backdrop-filter: blur(31.574848175048828px);
 }
 
@@ -227,7 +230,6 @@ ul {
     background: linear-gradient(180deg, #1B1B1B 0%, #090909 100%) !important;
     border: none !important;
 }
-
 .tab-box {
     position: relative;
     z-index:11 !important;
@@ -437,7 +439,9 @@ ul {
     border: 1px dashed #6A3E00;
     opacity: .8;
 }
-
+.scroll_btn::-webkit-scrollbar {
+  display: none;
+}
 
 /* .blck-layer {
     position: absolute;
@@ -641,6 +645,9 @@ ul {
 }
 
 @media (min-width:768px) {
+    .section-height {
+        min-height: 650px;
+    }
 
     nav {
         height: 100px;
@@ -758,7 +765,7 @@ ul {
     }
 
     .section-height {
-        min-height: 740px;
+        min-height: 786px;
     }
 
     .hero-nft1 {
@@ -793,6 +800,9 @@ ul {
 }
 
 @media (min-width:1200px) {
+    .gap-nav {
+        gap: 20px;
+    }
     .nav-link {
         margin-left: 30px !important;
         color: white !important;
@@ -856,7 +866,7 @@ ul {
     }
 
     .nav-bttn {
-        margin-left: 75px;
+        margin-left: 20px;
         margin-top: unset;
     }
 
@@ -865,8 +875,36 @@ ul {
         flex-direction: row !important;
     }
 }
+@media (min-width:1300px) {
+    /* .min-vh {
+        height: 100vh;
+    } */
+}
 
 @media (min-width:1400px) {
+    .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    padding: 12px 25px !important;
+    color: var(--bs-nav-pills-link-active-color);
+    background-color: unset !important;
+    background-image: linear-gradient(#fed710, #FFAE01, #ff5001) !important;
+    border-radius: 50px !important;
+    border: none !important;
+    transition: all linear 200ms;
+    background: linear-gradient(181deg, rgba(0, 0, 0, 0.00) 54.59%, rgba(0, 0, 0, 0.78) 90.17%), url(<path-to-image>), lightgray 50% / cover no-repeat, linear-gradient(124deg, rgba(255, 255, 255, 0.10) 0%, rgba(255, 255, 255, 0.03) 101.73%);
+    /* box-shadow: 1px 6px 7px 0px #933802; */
+    backdrop-filter: blur(31.574848175048828px);
+}
+    .mt-heading1{
+        padding-top: 90px;
+    }
+    .gap-nav {
+        gap: 40px;
+    }
+    .nav-bttn {
+        margin-left: 75px;
+        margin-top: unset;
+    }
     .tab-box {
         padding: 25px;
     }
@@ -874,11 +912,6 @@ ul {
     .section-height {
         height: 100vh;
     }
-
-    .min-vh {
-        height: 100vh;
-    }
-
     .min-vh-section {
         height: 100vh;
     }
