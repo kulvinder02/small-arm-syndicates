@@ -132,7 +132,10 @@
     }
 
     .img_width {
-        width: 70%;
+        width: 50%;
+    }
+    .w_100 {
+        width: 50%;
     }
     .playbtn {
         height: 140px;
